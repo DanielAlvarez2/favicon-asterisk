@@ -12,16 +12,39 @@
         }
         .bar{
             background: red;
-            height:495px;
-            width:5px;
+            height:450px;
+            width:50px;
+            border-radius: 25px;
+        }
+        #bar1{
+            transform: rotate(30deg);
+        }
+        #bar2{
+            transform: rotate(60deg);
+        }
+        #bar3{
+            transform: rotate(60deg);
         }
     </style>
 </head>
 <body>
-    <div style="width:500px;height:500px;border:1px solid black;">
-        <div class="bar" id="bar1">
-            <div class="bar" id="bar2">
-                <div class="bar" id="bar3"></div>
+    <div style="width:500px;
+                height:500px;
+                /* border:1px solid black; */
+                ">
+        <div style="background:blue;
+                    width:500px;
+                    height:500px;
+                    border-radius: 75px;
+                    display:grid;
+                    place-content: center;
+        "
+        >
+
+            <div class="bar" id="bar1">
+                <div class="bar" id="bar2">
+                    <div class="bar" id="bar3"></div>
+                </div>
             </div>
         </div>
 
